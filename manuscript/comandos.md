@@ -12,7 +12,7 @@ Para iniciar um container é necessário saber a partir de qual imagem será exe
 docker image list
 ```
 
-As imagens retornadas estão presentes no seu **Docker host** e não demandam qualquer download da [nuvem pública do Docker](hub.docker.com), a menos que deseje atualizá-la. Para atualizar a imagem basta executar o comando abaixo:
+As imagens retornadas estão presentes no seu **Docker host** e não demandam qualquer download da [nuvem pública do Docker](https://hub.docker.com), a menos que deseje atualizá-la. Para atualizar a imagem basta executar o comando abaixo:
 
 ```
 docker image pull python
@@ -109,12 +109,12 @@ Para entendimento, vamos imaginar que três containers foram colocados em execu�
 
 ## Verificando a lista de containers
 
-Para visualizar a lista de containers de um determinado **Docker host** utilizamos o comando [docker ps](https://docs.docker.com/engine/reference/commandline/ps/).
+Para visualizar a lista de containers de um determinado **Docker host** utilizamos o comando [docker container ls](https://docs.docker.com/engine/reference/commandline/container_ls/).
 
 Esse comando é responsável por mostrar todos os containers, mesmo aqueles não mais em execução.
 
 ```
-docker container list <parâmetros>
+docker container ls <parâmetros>
 ```
 
 Os parâmetros mais utilizados na execução do container são:
